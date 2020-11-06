@@ -1,0 +1,95 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font: inherit;
+}
+
+
+.logo {
+  width: 267px;
+  height: 82px;
+  display: flex;
+  align-items: center;
+
+}
+
+
+.logo__circle-black {
+  width: 0;
+  height: 0;
+  border-right: 41px solid transparent;
+  border-top: 41px solid #261F0F;
+  border-left: 41px solid #261F0F;
+  border-bottom: 41px solid #261F0F;
+  border-radius: 41px;
+  position: relative;
+}
+
+.logo__circle-white {
+  width: 0;
+  height: 0;
+  border-right: 24px solid white;
+  border-top: 24px solid white;
+  border-left: 24px solid white;
+  border-bottom: 24px solid white;
+  border-radius: 24px;
+  position: absolute;
+  top: -24px;
+  left: -24px;
+}
+
+.logo__circle-blue {
+  width: 0;
+  height: 0;
+  border-right: 24px solid #00ADFF;
+  border-top: 24px solid transparent;
+  border-left: 24px solid transparent;
+  border-bottom: 24px solid transparent;
+  border-radius: 24px;
+  position: absolute;
+  top: -24px;
+  left: -24px;
+}
+
+.logo__uptext {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.logo__downtext {
+  display: flex;
+  align-items: center;
+  margin-top: 4px;
+}
+
+.logo__downtext-left {
+  font-size: 23px;
+  font-weight: bold;
+  line-height: 1;
+  color: #00ADFF;
+  margin-right: 5px;
+}
+
+.logo__downtext-right {
+  font-size: 9px;
+  line-height: 1.2;
+  letter-spacing: normal;
+}
+
+
